@@ -1,0 +1,26 @@
+.primary-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.secondary-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.lift-text {
+  &--title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-primary-light;
+  }
+  &--stat {
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-primary-medium-2;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

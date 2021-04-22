@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding: 10rem 15rem;
+  background-color: #32343f; }
+
+.primary-heading {
+  font-size: 3rem;
+  font-weight: 700; }
+
+.secondary-heading {
+  font-size: 3rem;
+  font-weight: 700; }
+
+.lift-text--title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #c7cde3; }
+
+.lift-text--stat {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #202228; }
+
+.text-center {
+  text-align: center; }
+
+.btn, .btn:link, .btn:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #202228;
+  color: #c7cde3;
+  cursor: pointer; }
+
+.btn:hover, .btn:active {
+  background-color: #fff;
+  color: #202228; }
+
+.btn--active, .btn--active:link, .btn--active:visited {
+  background-color: #4bffbd;
+  color: #202228; }
+
+.btn--active:hover, .btn--active:active {
+  background-color: #fff; }
+
+.stats__titles {
+  display: flex;
+  margin-bottom: 2rem; }
+
+.stats__lift {
+  display: flex; }
+  .stats__lift:not(:last-child) {
+    margin-bottom: 2rem; }
+
+.stats__name {
+  flex: 0 0 33.3%; }
+
+.stats__field {
+  flex: 0 0 33.3%;
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #c7cde3; }
+
+.header {
+  max-width: 140rem;
+  background-color: #141519; }
+  .header__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-bottom: 2px solid #202228; }
+  .header__buttons .btn:last-child {
+    margin-left: 1rem; }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-bottom: 2px solid #202228; }
+  .nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+  .nav__item {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem; }
+    .nav__item:hover > .nav__icon {
+      fill: #fff; }
+    .nav__item:hover > .nav__text {
+      color: #fff; }
+  .nav__item--active .nav__icon,
+  .nav__item--active .nav__text {
+    color: #4bffbd;
+    fill: #4bffbd; }
+  .nav__item--active:hover > .nav__icon {
+    fill: #fff; }
+  .nav__item--active:hover > .nav__text {
+    color: #fff; }
+  .nav__icon {
+    height: 3rem;
+    width: 3rem;
+    fill: #c7cde3;
+    margin-right: 1.5rem; }
+  .nav__text {
+    font-size: 3rem;
+    color: #c7cde3; }
+
+.section__profile {
+  display: flex;
+  justify-content: center;
+  background-color: #141519; }

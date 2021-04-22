@@ -16,7 +16,91 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__title">
+            <h1 class="primary-heading">Workout Builder</h1>
+            <div class="header__buttons">
+                <button class="btn">kg</button>
+                <button class="btn btn--active">lb</button>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="nav__links">
+                <li class="nav__item nav__item--active">
+                    <svg class="nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-user"></use>
+                    </svg>
+                    <p class="nav__text">Profile</p>
+                </li>
+                <li class="nav__item">
+                    <svg class="nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-history"></use>
+                    </svg>
+                    <p class="nav__text">History</p>
+                </li>
+                <li class="nav__item">
+                    <svg class="nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-stopwatch"></use>
+                    </svg>
+                    <p class="nav__text">Timer</p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section__profile">
+            <div class="stats">
+                <div class="stats__titles">
+                    <div class="stats__name"></div>
+                    <div class="stats__name">
+                        <p class="lift-text--title text-center">1RM</p>
+                    </div>
+                    <div class="stats__name">
+                        <p class="lift-text--title text-center">Volume</p>
+                    </div>
+                </div>
+                <div class="stats__lift">
+                    <div class="stats__name">
+                        <p class="lift-text--title">Squat</p>
+                    </div>
+                    <div class="stats__field">
+                        <p class="lift-text--stat">200</p>
+                    </div>
+                    <div class="stats__field">
+                        <p class="lift-text--stat">20,000</p>
+                    </div>
+                </div>
+                <div class="stats__lift">
+                    <div class="stats__name">
+                        <p class="lift-text--title">Bench</p>
+                    </div>
+                    <div class="stats__field">
+                        <p class="lift-text--stat">200</p>
+                    </div>
+                    <div class="stats__field">
+                        <p class="lift-text--stat">20,000</p>
+                    </div>
+                </div>
+                <div class="stats__lift">
+                    <div class="stats__name">
+                        <p class="lift-text--title">Deadlift</p>
+                    </div>
+                    <div class="stats__field">
+                        <p class="lift-text--stat">200</p>
+                    </div>
+                    <div class="stats__field">
+                        <p class="lift-text--stat">20,000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__history">
 
+        </section>
+        <section class="section__timer">
+
+        </section>
+    </main>
 </body>
 
 </html>

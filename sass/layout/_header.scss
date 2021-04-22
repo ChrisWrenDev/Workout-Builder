@@ -1,0 +1,15 @@
+.header {
+  max-width: 140rem;
+  background-color: $color-primary-dark;
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-bottom: 2px solid $color-primary-medium-2;
+  }
+
+  &__buttons .btn:last-child {
+    margin-left: 1rem;
+  }
+}
