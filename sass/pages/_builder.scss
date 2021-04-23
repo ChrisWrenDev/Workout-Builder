@@ -1,11 +1,16 @@
 .section__profile {
-  display: flex;
-  justify-content: center;
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 3rem 0;
   background-color: $color-primary-dark;
 }
 
 .section__history {
+  max-width: 110rem;
+  margin: 0 auto;
 }
 
 .section__timer {
+  max-width: 110rem;
+  margin: 0 auto;
 }
